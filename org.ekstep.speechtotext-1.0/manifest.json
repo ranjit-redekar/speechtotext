@@ -1,0 +1,25 @@
+{
+    "id": "org.ekstep.speechtotext",
+    "ver": "1.0",
+    "author": "",
+    "type": "widget",
+    "title": "org.ekstep.speechtotext Plugin",
+    "description": "",
+    "publishedDate": "",
+    "editor": {
+        "main": "editor/plugin.js",
+        "dependencies": [],
+        "menu": [],
+        "configManifest": [],
+        "help": {
+            "src": "editor/help.md",
+            "dataType": "text"
+        },
+        "init-data": {
+            "sourceLanguage": "English"
+        }
+    },
+    "renderer": {
+        "main": "renderer/plugin.js"
+    }
+}
